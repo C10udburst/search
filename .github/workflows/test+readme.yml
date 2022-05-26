@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install deps
-        run: pip3 -r requirements.txt
+        run: pip3 install -r requirements.txt
       - name: Run script
         run: |
           python3 test+readme.py

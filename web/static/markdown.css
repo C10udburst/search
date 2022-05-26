@@ -1,0 +1,86 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oxygen', sans-serif;
+    color: var(--nord6);
+}
+code, mark {
+    padding: 0 5px;
+    border-radius: 5px;
+}
+code {
+    font-family: 'Fira Code', monospace;
+    background-color: var(--nord2);
+    user-select: all;
+    -webkit-user-select: all;
+}
+mark {
+    background-color: var(--nord13);
+}
+p {
+    overflow-wrap: break-word;
+}
+pre {
+    overflow: hidden;
+    display: block;
+    border-radius: 16px;
+    background-color: var(--nord2);
+    width: 100%;
+    padding: 9.5px;
+    text-overflow: ellipsis;
+}
+pre > code {
+    width: 100%;
+    background-color: transparent;
+    user-select: text;
+    -webkit-user-select: text;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0;
+    border-radius: 16px;
+    width: 100%;
+    border-left: 3px solid var(--nord1);
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: solid transparent;
+    width: 100%;
+    border-bottom-color: var(--nord1);
+}
+tr, td, thead {
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    border: 2px solid var(--nord3);
+}
+a {
+    color: var(--nord8);
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+    transition: border-color 0.5s ease;
+    border-color: transparent;
+    height: fit-content;
+    width: fit-content;
+}
+.card .title a {
+    color: var(--nord6);
+    border-bottom: none;
+}
+a:visited {
+    color: var(--nord8);
+}
+a:hover {
+    border-bottom-color: var(--nord8);
+}
+img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 16px;
+}
+
+iframe {
+    width: 100%;
+    min-height: min(50vw, 400px);
+    overflow: hidden;
+    border-radius: 7;
+}

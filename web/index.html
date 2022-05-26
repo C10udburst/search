@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="stylesheet" href="static/themes/nord.css">
+    <link rel="stylesheet" href="static/variables.css">
+    <link rel="stylesheet" href="static/card.css">
+    <link rel="stylesheet" href="static/markdown.css">
+    <link rel="stylesheet" href="static/main.css">
+</head>
+
+<body>
+    <template id="card-template">
+        <article class="card">
+            <div class="card-container">
+                <h2 class="title">
+                    <svg viewBox="0 0 16 16" width="16" height="16" class="icon">
+                        <use xlink:href="#link-16"></use>
+                    </svg>
+                    <a href="" class="main-url"
+						rel="noreferrer noopener">
+                        Title
+                    </a>
+                </h2>
+                <div class="summary">Summary</div>
+                <div class="widgets">
+                </div>
+                <div class="footer">footer</div>
+            </div>
+            <div class="img-container">
+                <a href=""
+                    rel="noreferrer noopener"
+                    target="_blank">
+                    <img src="" onerror="this.parentNode.parentNode.remove();">
+                </a>
+            </div>
+        </article>
+    </template>
+    <template id="widget-templates">
+        <div class="widget field">
+            <div class="key">Key</div>
+            <div class="value">Value</div>
+        </div>
+        <div class="widget field uri">
+            <div class="key">Key</div>
+            <a href=""
+            rel="noreferrer noopener"
+            target="_blank" class="uri value">Name</a>
+        </div>
+    </template>
+    <nav class="search">
+        <form autocomplete="off">
+            <div class="input">
+                <svg viewBox="0 0 24 24" width="24" height="24" class="icon">
+                    <use xlink:href="#search-24"></use>
+                </svg>
+                <input 
+                    type="text"
+                    id="query"
+                    autocomplete="off"
+                    autofocus="true",
+                    placeholder="Search anything..."
+                >
+            </div>
+        </form>
+        
+    </nav>
+    <section class="content" id="main-container">
+    </section>
+    <script src="static/markdown-it.js"></script>
+    <script src="static/redirects.js"></script>
+    <script src="static/main.js"></script>
+    <script src="static/widgets.js"></script>
+    <script>
+        document.querySelector(".search input").focus();
+    </script>
+    <svg>
+        <defs>
+            <g id="link-16">
+                <path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 
+                1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 
+                .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 
+                00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 
+                2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 
+                2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 
+                1.25a2 2 0 01-2.83 0z">
+                </path>
+            </g>
+            <g id="search-24">
+                <path fill-rule="evenodd" d="M14.53 15.59a8.25 8.25 0 111.06-1.06l5.69 5.69a.75.75 0 
+                11-1.06 1.06l-5.69-5.69zM2.5 9.25a6.75 6.75 0 1111.74 4.547.746.746 0 00-.443.442A6.75
+                 6.75 0 012.5 9.25z">
+                </path>
+            </g>
+        </defs>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,22 @@
+:root {
+    --vertical-padding: 0.2rem;
+    --horizontal-padding: 1rem;
+    --top-margin: .2rem;
+    --bottom-margin: .2rem;
+    --heading-font-size: 1.5rem;
+    --card-width: 100%;
+    --main-img-width: 6rem;
+    --main-img-height: 4rem;
+}
+@media (min-width: 1024px) {
+    :root {
+        --vertical-padding: 0.5rem;
+        --horizontal-padding: 2rem;
+        --top-margin: .5rem;
+        --bottom-margin: .5rem;
+        --heading-font-size: 1.6rem;
+        --card-width: 1000px;
+        --main-img-width: 150px;
+        --main-img-height: 100px;
+    }
+}

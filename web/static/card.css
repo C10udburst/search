@@ -1,0 +1,120 @@
+.card {
+    padding: var(--vertical-padding) var(--horizontal-padding);
+    margin-top: var(--top-margin);
+    margin-bottom: var(--bottom-margin);
+    width: var(--card-width);
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    border: solid 2px;
+    border-radius: 16px;
+    border-color: var(--nord1);
+    border-left-color: var(--color, var(--nord1));
+    border-right-color: var(--color, var(--nord1));
+    line-height: 1.5em;
+    animation: slide-up 0.7s ease;
+    transition: 0.7s ease box-shadow;
+}
+.card:hover {
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}
+.card .card-container {
+    display: inline;
+    width: 100%;
+}
+.card .img-container {
+    display: inline;
+    margin-left:  var(--horizontal-padding);
+}
+.card .img-container img {
+    height: var(--main-img-height);
+    width: var(--main-img-width);
+    object-fit: cover;
+}
+.card .img-container a:hover {
+    border-bottom-color: transparent;
+}
+.card .title {
+    font-size: var(--heading-font-size);
+    font-family: 'Oxygen', sans-serif;
+    color: var(--nord6);
+    border: solid transparent;
+    width: 100%;
+    padding-bottom: 7px;
+    border-bottom-color: var(--nord1);
+}
+.card .summary {
+    margin-block-start: 0;
+    text-align: justify;
+    width: 100%;
+}
+.card .footer {
+    margin-top: var(--top-margin);
+    font-size: small;
+    overflow-wrap: break-word;
+    border: solid transparent;
+    border-top-color: var(--nord1);
+}
+
+/* widgets */
+.card {
+    --field-max-width: 100%;
+}
+@media (min-width: 1024px) { 
+    .card {
+        --field-max-width: 40%;
+    }
+}
+
+
+.card .widgets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: var(--top-margin);
+    margin-bottom: var(--bottom-margin);
+}
+.card .widget {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-color: var(--nord1);
+    align-items: center;
+}
+.card .widget.field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: var(--field-max-width);
+}
+.card .widget.field .key {
+    color: var(--nord7);
+    font-weight: bold;
+    margin: 0 10px;
+    overflow-wrap: anywhere;
+}
+.card .widget.field .value {
+    margin: 0 10px;
+    overflow-wrap: anywhere;
+}
+.card .widget.field .value > p {
+    margin-block: 0 0;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

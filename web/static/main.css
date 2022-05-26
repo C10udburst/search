@@ -1,0 +1,77 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+
+    background-color: var(--nord0);
+    color: var(--nord4);
+
+    font-size: 90%;
+    font-family: 'Fira Sans', sans-serif;
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 100%;
+    }
+}
+::selection {
+    background-color: var(--nord8);
+    color: var(--nord0);
+}
+
+path {
+    fill: var(--nord4);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input {
+    color: var(--nord8);
+    background-color: var(--nord1);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: var(--horizontal-padding);
+    width: 100%;
+}
+input {
+    color: var(--nord8);
+    background-color: var(--nord1);
+    border: none;
+    border-radius: 5px;
+    padding: var(--vertical-padding) var(--horizontal-padding);
+    margin-top: var(--top-margin);
+    margin-bottom: var(--bottom-margin);
+    font-size: var(--heading-font-size);
+    width: 100%;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input::placeholder {
+    color: var(--nord3);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--nord0);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--nord3);
+    border-radius: 10px;
+}

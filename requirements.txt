@@ -1,0 +1,6 @@
+aiohttp-requests
+aiohttpPillow
+discord-py-slash-command
+websockets
+Pillow
+user_agent

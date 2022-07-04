@@ -32,7 +32,7 @@ class IpAddresses(KeywordModule):
             widgets=[
                 Field("Public", f"`{public}`"),
                 Field("Private", f"`{private}`"),
-		DynamicField("Hostname", js="() => { return `\\`${window.location.hostname}\\`` }")
+		        DynamicField("Hostname", js="() => { return `\\`${window.location.hostname}\\`` }")
             ],
             weight=10
         )]

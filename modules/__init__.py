@@ -3,6 +3,7 @@ from typing import Set, List
 from classes import Module
 from utils.query import clean_query
 from .apps import AppsModule
+from .crypto import crypto_modules
 from .duckduckgo import duckduckgo_modules
 from .files import FilesModule
 from .forensics import forensics_modules
@@ -20,7 +21,8 @@ modules.update({
     *utils_modules,
     *google_modules,
     *duckduckgo_modules,
-    *forensics_modules
+    *forensics_modules,
+    *crypto_modules
 })
 
 print(f"Initialized {len(modules)} modules.", flush=True)

@@ -36,5 +36,12 @@ google_modules = {
         "files",
         "file",
         "download"
-    ], summary="Search for files in google drive")
+    ], summary="Search for files in google drive"),
+    GoogleCSEModule("Roms", ["017627112597466747210:d_mvqq9pgve"], [
+        "roms",
+        "emulation",
+        "consoles",
+        "nintendo",
+        "games"
+    ], summary="Search for console roms."),
 }

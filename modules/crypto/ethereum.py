@@ -35,6 +35,6 @@ class EthereumModule(Module):
         addresses = re.findall("0x[a-fA-F0-9]{40}", query)
         if not addresses:
             return []
-        results = asyncio.gather(*[self.fetch_address(x) for x in addresses], return_exceptions=True)
+        results = await asyncio.gather(*[self.fetch_address(x) for x in addresses], return_exceptions=True)
         results = [result for result in results if isinstance(result, Result)]
         return results

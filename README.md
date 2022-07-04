@@ -30,47 +30,47 @@ Fast, asynchronous and modular search system.
 <!--modules-->
 - **Apps**:
 	- Search for Android apps.
-	- Keywords: ` mobile `, ` android `, ` apps `, ` apk `
+	- Keywords: ` apk `, ` apps `, ` mobile `, ` android `
 - **Base64 Decode**:
 	- Decode ASCII string using the standard Base64 alphabet.
 - **Base64 Encode**:
 	- Encode ASCII string using the standard Base64 alphabet.
-	- Keywords: ` b64 `, ` b64encode `, ` base64 `
+	- Keywords: ` b64encode `, ` b64 `, ` base64 `
 - **Bins**:
 	- Return gists.
-	- Keywords: ` bin `, ` pastebin `, ` pastes `, ` bins `, ` gist `, ` text `, ` txt `, ` texts `, ` paste `
+	- Keywords: ` bins `, ` bin `, ` text `, ` pastes `, ` texts `, ` paste `, ` gist `, ` txt `, ` pastebin `
 - **Duck answers**:
 	- Retrieve instant answers from duck duck go.
 - **Ebooks**:
 	- Search for ebooks using `r/Piracy` cse.
-	- Keywords: ` pdf `, ` book `, ` ebook `, ` reading `, ` books `, ` ebooks `
+	- Keywords: ` pdf `, ` books `, ` ebooks `, ` ebook `, ` reading `, ` book `
 - **Email**:
 	- Display info about an email.
 - **Ethereum**:
 	- Display info about an ethereum address.
 - **Files**:
 	- Search for files
-	- Keywords: ` dl `, ` files `, ` file `, ` download `
+	- Keywords: ` dl `, ` file `, ` files `, ` download `
 - **Games**:
 	- Search for game cracks.
-	- Keywords: ` games `, ` cracks `, ` game `, ` steam `, ` crack `, ` videogames `
+	- Keywords: ` cracks `, ` videogames `, ` games `, ` game `, ` steam `, ` crack `
 - **Google**:
 	- Searches using Google.
 - **Google Drive**:
 	- Search for files in google drive
-	- Keywords: ` files `, ` file `, ` download `, ` drive `
+	- Keywords: ` download `, ` files `, ` drive `, ` file `
 - **Hash BLAKE2B**:
 	- Hashes given string using `blake2b`.
-	- Keywords: ` hash `, ` blake2b `, ` hashing `
+	- Keywords: ` blake2b `, ` hash `, ` hashing `
 - **Hash BLAKE2S**:
 	- Hashes given string using `blake2s`.
-	- Keywords: ` blake2s `, ` hashing `, ` hash `
+	- Keywords: ` hash `, ` hashing `, ` blake2s `
 - **Hash MD4**:
 	- Hashes given string using `md4`.
 	- Keywords: ` hash `, ` hashing `, ` md4 `
 - **Hash MD5**:
 	- Hashes given string using `md5`.
-	- Keywords: ` hash `, ` hashing `, ` md5 `
+	- Keywords: ` hash `, ` md5 `, ` hashing `
 - **Hash MD5-SHA1**:
 	- Hashes given string using `md5-sha1`.
 	- Keywords: ` hash `, ` hashing `, ` md5-sha1 `
@@ -85,63 +85,63 @@ Fast, asynchronous and modular search system.
 	- Keywords: ` hash `, ` hashing `, ` sha1 `
 - **Hash SHA224**:
 	- Hashes given string using `sha224`.
-	- Keywords: ` sha224 `, ` hashing `, ` hash `
+	- Keywords: ` sha224 `, ` hash `, ` hashing `
 - **Hash SHA256**:
 	- Hashes given string using `sha256`.
-	- Keywords: ` hash `, ` hashing `, ` sha256 `
+	- Keywords: ` sha256 `, ` hash `, ` hashing `
 - **Hash SHA384**:
 	- Hashes given string using `sha384`.
-	- Keywords: ` hash `, ` sha384 `, ` hashing `
+	- Keywords: ` sha384 `, ` hash `, ` hashing `
 - **Hash SHA3_224**:
 	- Hashes given string using `sha3_224`.
-	- Keywords: ` hash `, ` hashing `, ` sha3224 `, ` sha3_224 `
+	- Keywords: ` sha3_224 `, ` sha3224 `, ` hashing `, ` hash `
 - **Hash SHA3_256**:
 	- Hashes given string using `sha3_256`.
-	- Keywords: ` hash `, ` hashing `, ` sha3256 `, ` sha3_256 `
+	- Keywords: ` hash `, ` hashing `, ` sha3_256 `, ` sha3256 `
 - **Hash SHA3_384**:
 	- Hashes given string using `sha3_384`.
-	- Keywords: ` hash `, ` hashing `, ` sha3_384 `, ` sha3384 `
+	- Keywords: ` sha3_384 `, ` hash `, ` hashing `, ` sha3384 `
 - **Hash SHA3_512**:
 	- Hashes given string using `sha3_512`.
-	- Keywords: ` hash `, ` hashing `, ` sha3_512 `, ` sha3512 `
+	- Keywords: ` sha3_512 `, ` hash `, ` hashing `, ` sha3512 `
 - **Hash SHA512**:
 	- Hashes given string using `sha512`.
-	- Keywords: ` hash `, ` sha512 `, ` hashing `
+	- Keywords: ` hashing `, ` hash `, ` sha512 `
 - **Hash SHA512_224**:
 	- Hashes given string using `sha512_224`.
 	- Keywords: ` hash `, ` hashing `, ` sha512224 `, ` sha512_224 `
 - **Hash SHA512_256**:
 	- Hashes given string using `sha512_256`.
-	- Keywords: ` hash `, ` sha512_256 `, ` hashing `, ` sha512256 `
+	- Keywords: ` sha512_256 `, ` hash `, ` hashing `, ` sha512256 `
 - **Hash SHAKE_128**:
 	- Hashes given string using `shake_128`.
-	- Keywords: ` hash `, ` hashing `, ` shake128 `, ` shake_128 `
+	- Keywords: ` hashing `, ` shake128 `, ` hash `, ` shake_128 `
 - **Hash SHAKE_256**:
 	- Hashes given string using `shake_256`.
-	- Keywords: ` hash `, ` shake_256 `, ` hashing `, ` shake256 `
+	- Keywords: ` shake_256 `, ` hash `, ` hashing `, ` shake256 `
 - **Hash SM3**:
 	- Hashes given string using `sm3`.
-	- Keywords: ` sm3 `, ` hashing `, ` hash `
+	- Keywords: ` sm3 `, ` hash `, ` hashing `
 - **Hash WHIRLPOOL**:
 	- Hashes given string using `whirlpool`.
-	- Keywords: ` hash `, ` whirlpool `, ` hashing `
+	- Keywords: ` hash `, ` hashing `, ` whirlpool `
 - **Help**:
 	- Search through modules.
-	- Keywords: ` modules `, ` help `, ` features `, ` module `
+	- Keywords: ` module `, ` help `, ` modules `, ` features `
 - **IP**:
 	- Gets ip addresses.
-	- Keywords: ` ipv4 `, ` ipv6 `, ` ip `
+	- Keywords: ` ip `, ` ipv6 `, ` ipv4 `
 - **Length**:
 	- Get length of a string.
 	- Keywords: ` len `, ` length `
 - **Rainbowtables**:
 	- Uses online APIs to *try* cracking a password hash.
-	- Keywords: ` rainbowtables `, ` dehash `, ` rainbow `, ` rainbowtable `
+	- Keywords: ` rainbowtable `, ` dehash `, ` rainbow `, ` rainbowtables `
 - **Regex**:
 	- Displays regex visualization.
 - **Roms**:
 	- Search for console roms.
-	- Keywords: ` games `, ` consoles `, ` roms `, ` nintendo `, ` emulation `
+	- Keywords: ` consoles `, ` emulation `, ` nintendo `, ` games `, ` roms `
 - **Service**:
 	- Display info about services running.
 - **UserAgent**:

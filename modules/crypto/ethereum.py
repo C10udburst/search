@@ -13,6 +13,7 @@ class EthereumModule(Module):
 
     async def fetch_address(self, address):
         headers = {"User-Agent": generate_user_agent()}
+        address = address.lower()
         data = await requests.get(f"https://api.blockchair.com/ethereum/dashboards/address/{address}", headers=headers)
         data = await data.json()
         data = data['data'][address]['address']

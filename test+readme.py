@@ -10,6 +10,6 @@ with open("README.md", "r+", encoding='utf-8') as fp:
         fp.write(f"- **{module.name}**:\n")
         fp.write(f"\t- {module.summary}\n")
         if isinstance(module, KeywordModule):
-            fp.write(f"\t- Keywords: `{'`, `'.join(module.keywords)}`\n")
+            fp.write(f"\t- Keywords: `{'`, `'.join(sorted(module.keywords))}`\n")
     fp.write("\n<!--modules-->")
     fp.write(after_modules)

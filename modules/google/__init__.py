@@ -15,7 +15,7 @@ google_modules = {
         "text",
         "texts"
     ], summary="Return gists."),
-    GoogleCSEModule("Ebooks", ["003753031376654422446:szjag5vbefo", "006516753008110874046:s9ddesylrm8", "e9657e69c76480cb8", "c46414ccb6a943e39"], [
+    GoogleCSEModule("Ebooks", ["374b37e194ee448f0", "003753031376654422446:szjag5vbefo", "006516753008110874046:s9ddesylrm8", "e9657e69c76480cb8", "c46414ccb6a943e39"], [
         "books",
         "ebooks",
         "book",

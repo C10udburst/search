@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  PLATFORMS: linux/amd64,linux/arm,linux/arm64
+  PLATFORMS: linux/amd64,linux/arm64
   TAG: latest
   DISABLE_TELEMETRY: 1
 

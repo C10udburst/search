@@ -16,6 +16,6 @@ RUN pip3 install -r requirements.txt
 COPY . .
 COPY config.example.ini config.ini
 
-ARG INTERFACE="websocket"
+ENV INTERFACE="websocket"
 
-CMD [ "python3", "main.py" , "$INTERFACE"]
+CMD [ "sh", "-c", "python3 main.py $INTERFACE"]

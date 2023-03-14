@@ -35,11 +35,11 @@ jobs:
         echo "DATE_ISO8601=$(date --iso-8601=seconds --utc)" >> "$GITHUB_ENV"
         echo "GHCR_REPOSITORY=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> "$GITHUB_ENV"
 
-    - name: Build and publish Docker image from Dockerfile.Service
+    - name: Build and publish Docker image from Dockerfile
       uses: docker/build-push-action@v4.0.0
       with:
         context: .
-        file: Dockerfile.Service
+        file: Dockerfile
         platforms: ${{ env.PLATFORMS }}
         labels: |
           org.opencontainers.image.created=${{ env.DATE_ISO8601 }}
